@@ -1,0 +1,76 @@
+<style type="text/css">
+* {
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+body {
+  background-color: #F9F9F9;
+  margin: 10px;
+}
+
+#im-shadow {
+  display: inline-block;
+  background-image: url('./404-Mitchell-Map.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 88%;
+  border-radius: 20px;
+}
+
+.overlay-white {
+  background-color: rgba(248, 248, 248, 0.5);
+  border-radius: 20px;
+}
+
+.imbox {
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+}
+
+.imbox img {
+  border-radius: 20px;
+}
+
+.imbox img + .overlay-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.imbox_p {
+  color: #FFFFFF;
+  margin: 0px;
+  font-size: 4vw;
+  margin-top: 1vw;
+}
+
+.imbox_h1 {
+  color: #FFFFFF;
+  margin: 0px;
+  font-size: 8vw;
+  margin: 1vw;
+}
+
+#astro_map {
+  max-width: 80%;
+  max-height: 80%;
+}
+</style>
+
+<div class='imbox' align='center'>
+  <img width=90% src='img/404-Mitchell-Map.jpg' />
+  <div class='overlay-white'>
+    <h1 class='imbox_h1'>Lost?</h1>
+    <img id='astro_map' src='img/404-Mitchell-Map.jpg'>
+    <p class='imbox_p'>404: File not found</p>
+  </div>
+</div>
+<br>
