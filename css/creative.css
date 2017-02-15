@@ -21,7 +21,13 @@ hr {
 }
 
 hr.light {
-    border-color: #FFCE1F;
+    border-color: #fff;
+}
+
+hr.arena {
+    max-width: 50px;
+    border-color: #F05F40;
+    border-width: 3px;
 }
 
 a {
@@ -59,6 +65,24 @@ p {
 .bg-dark {
     color: #fff;
     background-color: #181D25;
+}
+
+.bg-primary-sneakstreet {
+    background-color: #563D7C;
+}
+
+.bg-dark-sneakstreet {
+    color: #fff;
+    background-color: #222222;
+}
+
+.bg-primary-arena {
+    background-color: #F05F40;
+}
+
+.bg-dark-arena {
+    color: #fff;
+    background-color: #222222;
 }
 
 .text-faded {
