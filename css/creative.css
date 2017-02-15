@@ -30,6 +30,12 @@ hr.arena {
     border-width: 3px;
 }
 
+hr.sneakstreet {
+    max-width: 50px;
+    border-color: #563D7C;
+    border-width: 3px;
+}
+
 a {
     color: #FFFFFF;
     -webkit-transition: all .35s;
@@ -202,12 +208,23 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+header.home {
+    background-image: url(../img/header.png);
+}
+
+header.sneakstreet {
+    background-image: url(/img/sneakstreet/header.png);
+}
+
+header.arena {
+    background-image: url(/img/thearena/header.png);
 }
 
 header .header-content {
